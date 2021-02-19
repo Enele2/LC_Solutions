@@ -5,7 +5,7 @@ class Solution {
         helper(res, s, 0, 0, n);
         return res;
     }
-    
+
     public void helper(List<String> res, StringBuilder s, int l, int r, int n) {
         if (l == n && r == n) {
             res.add(s.toString());
